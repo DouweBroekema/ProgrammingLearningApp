@@ -22,7 +22,8 @@
             // List<IAction>
 
 
-            // ProgramParser
+            // IParseAProgram
+            // DefaultProgramParser : IProgramParser
             // Program ReadAndParseProgram (string _FilePath)
             // IAction ParseAction (string _newAction) ---> Returns new action based on string
             // Read text file and turn into IAction list. Creates a new program.
