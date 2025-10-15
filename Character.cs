@@ -11,7 +11,7 @@ namespace ProgrammingLearningApp
         public Vector2Int Position;
         public Rotation Rotation;
 
-        public Character(Vector2Int _startPosition = default, Rotation _startRotation = Rotation.South)
+        public Character(Vector2Int _startPosition = default, Rotation _startRotation = Rotation.East)
         {
             Position = _startPosition;
             Rotation = _startRotation;

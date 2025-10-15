@@ -64,17 +64,18 @@ namespace ProgrammingLearningApp.ProgramData
                 {
                     if (currentLine.Contains("Repeat"))
                     {
-                        // Nested loop.
-                        currentLine = reader.ReadLine();
-
                         // Create the nested action
                         RepeatAction nestedAction = (RepeatAction)ActionParser(currentLine);
 
-                        nestedAction.NestedActions = ParseRecursive(_curentWhiteSpacing + 1, out List<String> _nestedStrings);
+                        // Nested loop.
+                        currentLine = reader.ReadLine();
+
+
+                        nestedAction.NestedActions = ParseRecursive(_curentWhiteSpacing + 4, out List<String> _nestedStrings);
                        
                         _collectedActions.Add(nestedAction);
                         _collectedStrings.Add(currentLine);
-                        _collectedStrings.Concat(_nestedStrings);
+                        _collectedStrings.AddRange(_nestedStrings);
                         continue;
                     }
                     else

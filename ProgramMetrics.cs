@@ -22,23 +22,38 @@ namespace ProgrammingLearningApp
                 commandCount++;
                 if (action is RepeatAction)
                 {
-                    int newNestingCount = CalculateNesting((RepeatAction)action);
-                    if (newNestingCount < nestingCount) nestingCount = newNestingCount;
-                    repeatingCount++;
+                    int additionalRepeats = 0;
+                    int additionalNestedCommands = 0;
+
+                    int newNestingCount = CalculateNesting((RepeatAction)action, ref additionalRepeats, ref additionalNestedCommands);
+                  
+                    repeatingCount += 1 + additionalRepeats;
+                    commandCount += additionalNestedCommands;
+
+                    if (newNestingCount  > nestingCount) nestingCount = newNestingCount;
                 }
             }
 
             return $"No. of commands {commandCount} \nMax Nesting {nestingCount} \nNo. of repeats {repeatingCount}";
         }
 
-        private int CalculateNesting(RepeatAction action)
+        private int CalculateNesting(RepeatAction action, ref int additionalRepeats, ref int additionalNestedCommands)
         {
-            int result = 1;
+            int maxDepth = 0;
+
             foreach (var nestedAction in action.NestedActions)
             {
-                if (action is RepeatAction) result += 1 + CalculateNesting((RepeatAction)nestedAction);
+                additionalNestedCommands++; 
+                if (nestedAction is RepeatAction)
+                {
+                    additionalRepeats++;
+                    int checkDepth = CalculateNesting((RepeatAction)nestedAction, ref additionalRepeats, ref additionalNestedCommands);
+                    if(checkDepth > maxDepth) maxDepth = checkDepth;
+                }
+
             }
-            return result;
+
+            return 1 + maxDepth;
         }
 
     }

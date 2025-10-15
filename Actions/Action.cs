@@ -42,13 +42,20 @@ namespace ProgrammingLearningApp.Actions
         public TurnDirection Direction;
         public void Execute(Character _character)
         {
+            int result = 0;
+            int maxRot = Enum.GetNames(typeof(Rotation)).Length;
             switch (Direction)
             {
                 case TurnDirection.Left:
-                    _character.Rotation += 1;
+                    result = (int)_character.Rotation + 1;
+                    int lastValue = maxRot;
+                    if (result > lastValue) _character.Rotation = 0;
+                    else _character.Rotation += 1;
                     break;
                 case TurnDirection.Right:
-                    _character.Rotation -= 1;
+                    result = ((int)_character.Rotation - 1 + maxRot) % maxRot;
+                    if (result < 0) _character.Rotation -= 1;
+                    else _character.Rotation = (Rotation)result;
                     break;
             }
         }
@@ -116,7 +123,7 @@ namespace ProgrammingLearningApp.Actions
 
             switch (_strings[1])
             {
-                case "Left":
+                case "left":
                     direction = TurnAction.TurnDirection.Left;
                     break;
                 case "right":
