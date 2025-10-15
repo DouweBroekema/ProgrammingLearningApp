@@ -64,6 +64,7 @@ namespace ProgrammingLearningApp.ProgramData
                 {
                     if (currentLine.Contains("Repeat"))
                     {
+                        string originalLine = currentLine;
                         // Create the nested action
                         RepeatAction nestedAction = (RepeatAction)ActionParser(currentLine);
 
@@ -74,7 +75,7 @@ namespace ProgrammingLearningApp.ProgramData
                         nestedAction.NestedActions = ParseRecursive(_curentWhiteSpacing + 4, out List<String> _nestedStrings);
                        
                         _collectedActions.Add(nestedAction);
-                        _collectedStrings.Add(currentLine);
+                        _collectedStrings.Add(originalLine);
                         _collectedStrings.AddRange(_nestedStrings);
                         continue;
                     }
