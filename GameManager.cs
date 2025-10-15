@@ -1,6 +1,6 @@
 ﻿namespace ProgrammingLearningApp
 {
-    internal class Program
+    internal class GameManager
     {
         static void Main(string[] args)
         {

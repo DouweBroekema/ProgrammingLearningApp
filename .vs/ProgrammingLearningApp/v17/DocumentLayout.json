@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\programdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\programdata\\programparsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programdata\\programparsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\actions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:actions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProgramParsing.cs",
+              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\ProgramParsing.cs",
+              "RelativeDocumentMoniker": "ProgramData\\ProgramParsing.cs",
+              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\ProgramParsing.cs",
+              "RelativeToolTip": "ProgramData\\ProgramParsing.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:42:18.968Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\Program.cs",
+              "RelativeDocumentMoniker": "ProgramData\\Program.cs",
+              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\Program.cs",
+              "RelativeToolTip": "ProgramData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:41:54.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Action.cs",
+              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Actions\\Action.cs",
+              "RelativeDocumentMoniker": "Actions\\Action.cs",
+              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Actions\\Action.cs",
+              "RelativeToolTip": "Actions\\Action.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:36:18.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T14:45:38.915Z",
               "EditorCaption": ""
