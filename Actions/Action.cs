@@ -19,6 +19,7 @@ namespace ProgrammingLearningApp.Actions
         public int Steps;
         public void Execute(Character _character)
         {
+
             switch (_character.Rotation)
             {
                 case Rotation.South:

@@ -13,3 +13,18 @@ C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\refint\Progr
 C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.pdb
 C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.genruntimeconfig.cache
 C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ref\ProgrammingLearningApp.dll
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.exe
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.deps.json
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.runtimeconfig.json
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.dll
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.pdb
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.AssemblyInfoInputs.cache
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.AssemblyInfo.cs
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.csproj.CoreCompileInputs.cache
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.sourcelink.json
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.dll
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\refint\ProgrammingLearningApp.dll
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.pdb
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.genruntimeconfig.cache
+C:\Users\basvd\Desktop\Game projects\Yomi\Yomi\ProgrammingLearningApp\obj\Debug\net8.0\ref\ProgrammingLearningApp.dll

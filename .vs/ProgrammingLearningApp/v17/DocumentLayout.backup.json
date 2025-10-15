@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\",
+  "WorkspaceRootPath": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\programdata\\programparsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programdata\\programparsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\programexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\randomizedprogramselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:randomizedprogramselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\programdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\exampleprograms\\exampleprogram_3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:exampleprograms\\exampleprogram_3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\exampleprograms\\exampleprogram_2 .txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:exampleprograms\\exampleprogram_2 .txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\actions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\actions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:actions\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\douwe\\source\\repos\\programminglearningapp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\randomizedprogramselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:randomizedprogramselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\programmetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programmetrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\programexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\programdata\\programparsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programdata\\programparsing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\programdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:programdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\exampleprograms\\exampleprogram_2 .txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:exampleprograms\\exampleprogram_2 .txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|c:\\users\\basvd\\desktop\\game projects\\yomi\\yomi\\programminglearningapp\\exampleprograms\\exampleprogram_3.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A9C08DEB-4FAD-4D91-A47C-91BCEFF28A68}|ProgrammingLearningApp.csproj|solutionrelative:exampleprograms\\exampleprogram_3.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,121 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExampleProgram_2 .txt",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_2 .txt",
-              "RelativeDocumentMoniker": "ExamplePrograms\\ExampleProgram_2 .txt",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_2 .txt",
-              "RelativeToolTip": "ExamplePrograms\\ExampleProgram_2 .txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-10-15T15:49:52.334Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RandomizedProgramSelector.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\RandomizedProgramSelector.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\RandomizedProgramSelector.cs",
               "RelativeDocumentMoniker": "RandomizedProgramSelector.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\RandomizedProgramSelector.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\RandomizedProgramSelector.cs",
               "RelativeToolTip": "RandomizedProgramSelector.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADgvx8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T15:21:37.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ProgramMetrics.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramMetrics.cs",
+              "RelativeDocumentMoniker": "ProgramMetrics.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramMetrics.cs",
+              "RelativeToolTip": "ProgramMetrics.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:29:11.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProgramParsing.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramData\\ProgramParsing.cs",
+              "RelativeDocumentMoniker": "ProgramData\\ProgramParsing.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramData\\ProgramParsing.cs",
+              "RelativeToolTip": "ProgramData\\ProgramParsing.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:42:18.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExampleProgram_2 .txt",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_2 .txt",
+              "RelativeDocumentMoniker": "ExamplePrograms\\ExampleProgram_2 .txt",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_2 .txt",
+              "RelativeToolTip": "ExamplePrograms\\ExampleProgram_2 .txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-15T15:49:52.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ExampleProgram_3.txt",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_3.txt",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_3.txt",
               "RelativeDocumentMoniker": "ExamplePrograms\\ExampleProgram_3.txt",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_3.txt",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ExamplePrograms\\ExampleProgram_3.txt",
               "RelativeToolTip": "ExamplePrograms\\ExampleProgram_3.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-10-15T15:17:38.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProgramExecutor.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramExecutor.cs",
-              "RelativeDocumentMoniker": "ProgramExecutor.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramExecutor.cs",
-              "RelativeToolTip": "ProgramExecutor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T13:08:49.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Character.cs",
-              "RelativeDocumentMoniker": "Character.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Character.cs",
-              "RelativeToolTip": "Character.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T13:00:15.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProgramParsing.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\ProgramParsing.cs",
-              "RelativeDocumentMoniker": "ProgramData\\ProgramParsing.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\ProgramParsing.cs",
-              "RelativeToolTip": "ProgramData\\ProgramParsing.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAA0wEMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T10:42:18.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T15:17:38.365Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\Program.cs",
-              "RelativeDocumentMoniker": "ProgramData\\Program.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\ProgramData\\Program.cs",
-              "RelativeToolTip": "ProgramData\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Title": "ProgramExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramExecutor.cs",
+              "RelativeDocumentMoniker": "ProgramExecutor.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramExecutor.cs",
+              "RelativeToolTip": "ProgramExecutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T10:41:54.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T13:08:49.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\Character.cs",
+              "RelativeDocumentMoniker": "Character.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\Character.cs",
+              "RelativeToolTip": "Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:00:15.031Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramData\\Program.cs",
+              "RelativeDocumentMoniker": "ProgramData\\Program.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\ProgramData\\Program.cs",
+              "RelativeToolTip": "ProgramData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T10:41:54.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Action.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Actions\\Action.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\Actions\\Action.cs",
               "RelativeDocumentMoniker": "Actions\\Action.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\Actions\\Action.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\Actions\\Action.cs",
               "RelativeToolTip": "Actions\\Action.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAiwKEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T10:36:18.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
-              "ToolTip": "C:\\Users\\douwe\\source\\repos\\ProgrammingLearningApp\\GameManager.cs",
+              "ToolTip": "C:\\Users\\basvd\\Desktop\\Game projects\\Yomi\\Yomi\\ProgrammingLearningApp\\GameManager.cs",
               "RelativeToolTip": "GameManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T14:45:38.915Z"
             }
