@@ -12,9 +12,10 @@ namespace ProgrammingLearningApp.ProgramData
         public List<string> AllStrings;
         public List<IAction> AllActions;
 
-        public Program(List<IAction> _allActions)
+        public Program(List<IAction> _allActions, List<string> _allStrings)
         {
             AllActions = _allActions;  
+            AllStrings = _allStrings;
         }
     }
 }

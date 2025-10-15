@@ -93,6 +93,7 @@ namespace ProgrammingLearningApp.Actions
 
         public IAction IParseAction(string _actionText = default, List<IAction> _nestedActions = default)
         {
+            _actionText = _actionText.TrimStart(' ');
             string[] _strings = _actionText.Split(' ');
             return new MoveAction
             {
@@ -108,6 +109,7 @@ namespace ProgrammingLearningApp.Actions
 
         public IAction IParseAction(string _actionText = default, List<IAction> _nestedActions = default)
         {
+            _actionText = _actionText.TrimStart(' ');
             string[] _strings = _actionText.Split(' ');
 
             TurnAction.TurnDirection direction = default;
@@ -137,7 +139,7 @@ namespace ProgrammingLearningApp.Actions
 
         public IAction IParseAction(string _actionText = default, List<IAction> _nestedActions = default)
         {
-
+            _actionText = _actionText.TrimStart(' ');
             string[] _strings = _actionText.Split(' ');
 
             return new RepeatAction

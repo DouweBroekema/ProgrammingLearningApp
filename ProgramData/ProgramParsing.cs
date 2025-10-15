@@ -31,6 +31,7 @@ namespace ProgrammingLearningApp.ProgramData
 
 
             List<IAction> _allActionsCollected = new();
+            List<string> _allCollectedStrings = new();
 
             reader = new StreamReader(_filePath);
             // Reading file
@@ -39,10 +40,10 @@ namespace ProgrammingLearningApp.ProgramData
                 
                 currentLine = reader.ReadLine();
 
-                _allActionsCollected = ParseRecursive(0);
+                _allActionsCollected = ParseRecursive(0, out _allCollectedStrings);
             }
 
-            return new Program(_allActionsCollected);
+            return new Program(_allActionsCollected, _allCollectedStrings);
         }
 
         // TDOO: Parser not working fully yet.
@@ -52,29 +53,37 @@ namespace ProgrammingLearningApp.ProgramData
         /// </summary>
         /// <param name="_curentWhiteSpacing"></param>
         /// <returns></returns>
-        private List<IAction> ParseRecursive(int _curentWhiteSpacing)
+        private List<IAction> ParseRecursive(int _curentWhiteSpacing, out List<string> _collectedStrings)
         {
             List<IAction> _collectedActions = new();
+            _collectedStrings = new();
 
-            while(currentLine != null)
+            while(currentLine != null && ComputeWhiteSpacing(currentLine) >= _curentWhiteSpacing)
             {
-                if(currentLine.Contains("Repeat") && ComputeWhiteSpacing(currentLine) == _curentWhiteSpacing)
+                if (ComputeWhiteSpacing(currentLine) == _curentWhiteSpacing)
                 {
-                    // Nested loop.
-                    currentLine = reader.ReadLine();
+                    if (currentLine.Contains("Repeat"))
+                    {
+                        // Nested loop.
+                        currentLine = reader.ReadLine();
 
-                    // Create the nested action
-                    RepeatAction nestedAction = (RepeatAction)ActionParser(currentLine);
+                        // Create the nested action
+                        RepeatAction nestedAction = (RepeatAction)ActionParser(currentLine);
 
-                    nestedAction.NestedActions = ParseRecursive(_curentWhiteSpacing + 1);
-                    _collectedActions.Add(nestedAction);
-
-                    _collectedActions.Add(nestedAction);
+                        nestedAction.NestedActions = ParseRecursive(_curentWhiteSpacing + 1, out List<String> _nestedStrings);
+                       
+                        _collectedActions.Add(nestedAction);
+                        _collectedStrings.Add(currentLine);
+                        _collectedStrings.Concat(_nestedStrings);
+                        continue;
+                    }
+                    else
+                    {
+                        _collectedActions.Add(ActionParser(currentLine));
+                        _collectedStrings.Add(currentLine);
+                    }
                 }
-                else if (ComputeWhiteSpacing(currentLine) == _curentWhiteSpacing)
-                {
-                    _collectedActions.Add(ActionParser(currentLine));
-                }
+                else break;
 
                 currentLine = reader.ReadLine();
             }

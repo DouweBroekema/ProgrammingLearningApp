@@ -28,7 +28,7 @@ namespace ProgrammingLearningApp
                 }
             }
 
-            return $"No. of commands{commandCount} \nMax Nesting {nestingCount} \nNo. of repeats {repeatingCount}";
+            return $"No. of commands {commandCount} \nMax Nesting {nestingCount} \nNo. of repeats {repeatingCount}";
         }
 
         private int CalculateNesting(RepeatAction action)
