@@ -9,11 +9,16 @@ namespace ProgrammingLearningApp.ProgramData
 {
     public interface IProgramParser
     {
-        public Program ParseProgram(string _filePath);
+        public Program ParseProgram(string _filePath, List<IParseAction> _allPossibleActions);
     }
 
     public class DefaultProgramParser : IProgramParser
     {
+        private string currentLine;
+        private List<IParseAction> allPossibleAction;
+        private StreamReader reader;
+
+
         /// <summary>
         /// Parses text file with the specified layout from the assignment.
         /// </summary>
@@ -22,45 +27,77 @@ namespace ProgrammingLearningApp.ProgramData
         /// <returns></returns>
         public Program ParseProgram(string _filePath, List<IParseAction> _allPossibleActions)
         {
-            try
+            this.allPossibleAction = _allPossibleActions;   
+
+
+            List<IAction> _allActionsCollected = new();
+
+            reader = new StreamReader(_filePath);
+            // Reading file
+            using (reader) 
             {
-                List<IAction> allActions = new();
-
-                // Create stream reader.
-                StreamReader newStreamReader = new StreamReader(_filePath);
-
-                // Scanning document
-                string currentLine = newStreamReader.ReadLine();
                 
-                // Continue until end of the file
-                while (currentLine != null)
+                currentLine = reader.ReadLine();
+
+                _allActionsCollected = ParseRecursive(0);
+            }
+
+            return new Program(_allActionsCollected);
+        }
+
+        // TDOO: Parser not working fully yet.
+
+        /// <summary>
+        /// Recursively search the file to generate IAction list.
+        /// </summary>
+        /// <param name="_curentWhiteSpacing"></param>
+        /// <returns></returns>
+        private List<IAction> ParseRecursive(int _curentWhiteSpacing)
+        {
+            List<IAction> _collectedActions = new();
+
+            while(currentLine != null)
+            {
+                if(currentLine.Contains("Repeat") && ComputeWhiteSpacing(currentLine) == _curentWhiteSpacing)
                 {
-                    
+                    // Nested loop.
+                    currentLine = reader.ReadLine();
+
+                    // Create the nested action
+                    RepeatAction nestedAction = (RepeatAction)ActionParser(currentLine);
+
+                    nestedAction.NestedActions = ParseRecursive(_curentWhiteSpacing + 1);
+                    _collectedActions.Add(nestedAction);
+
+                    _collectedActions.Add(nestedAction);
+                }
+                else if (ComputeWhiteSpacing(currentLine) == _curentWhiteSpacing)
+                {
+                    _collectedActions.Add(ActionParser(currentLine));
                 }
 
-                // Close file
-                newStreamReader.Close();    
-
-
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Something went wrong whilst parsing the program.");
-                return null;
+                currentLine = reader.ReadLine();
             }
 
-            return null;
+            return _collectedActions;
 
         }
 
-        public IAction ActionParser(string _actionString, List<IParseAction> _allPossibleActions)
+
+        /// <summary>
+        /// Parse string or list of strings into IAction
+        /// </summary>
+        /// <param name="_actionString"></param>
+        /// <param name="_allPossibleActions"></param>
+        /// <returns></returns>
+        private IAction? ActionParser(string _actionString, List<IAction> _nestedActions = default)
         {
 
             // Searching through commands for match.
-            foreach (IParseAction action in _allPossibleActions)
+            foreach (IParseAction _action in allPossibleAction)
             {
                 // Check if command matches with data from textfile
-                if (_actionString.Contains(action.TextFileCommand)) return action.IParseAction(_actionString);
+                if (_actionString.Contains(_action.TextFileCommand)) return _action.IParseAction(_actionString, _nestedActions);
             }
 
             // No corresponding action found. Break program and output to console 
@@ -68,6 +105,13 @@ namespace ProgrammingLearningApp.ProgramData
             return default;
         }
 
+
+        /// <summary>
+        /// Computes white spacing placed at the start of the string.
+        /// </summary>
+        /// <param name="_String"></param>
+        /// <returns></returns>
+        private int ComputeWhiteSpacing(string _String) => _String.TakeWhile(x => x == ' ').Count();
 
     }
 

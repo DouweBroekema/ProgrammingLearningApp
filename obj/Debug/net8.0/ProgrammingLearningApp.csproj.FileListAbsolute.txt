@@ -1,0 +1,15 @@
+C:\Users\douwe\source\repos\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.exe
+C:\Users\douwe\source\repos\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.deps.json
+C:\Users\douwe\source\repos\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.runtimeconfig.json
+C:\Users\douwe\source\repos\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.dll
+C:\Users\douwe\source\repos\ProgrammingLearningApp\bin\Debug\net8.0\ProgrammingLearningApp.pdb
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.AssemblyInfoInputs.cache
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.AssemblyInfo.cs
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.csproj.CoreCompileInputs.cache
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.sourcelink.json
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.dll
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\refint\ProgrammingLearningApp.dll
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.pdb
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ProgrammingLearningApp.genruntimeconfig.cache
+C:\Users\douwe\source\repos\ProgrammingLearningApp\obj\Debug\net8.0\ref\ProgrammingLearningApp.dll

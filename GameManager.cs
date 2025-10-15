@@ -4,14 +4,29 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hey! Thanks for using our programming learning app! :)");
+            Console.WriteLine("Select an option: " +
+                "'\n' 1) Type R to select a random program " +
+                "'\n' 1) Type the filepath of the program you would like to load");
+
+            String Input = Console.ReadLine();
+
+            switch (Input)
+            {
+                case "B":
+                    break;
+                default:
+                    break;
+            }
+
+
 
 
             // Class diagram
 
             // GameManager
             // Reads the inputs from the user and executes accordingly.
-            
+
 
             // ProgramExecutor
             // Takes parsed program and executes that program.
@@ -49,7 +64,7 @@
 
             // MetricsManager
             // CalculateAllMetrics (Program _program)
-            
+
 
             // RandomizedExampleProgram
             // Attribute
