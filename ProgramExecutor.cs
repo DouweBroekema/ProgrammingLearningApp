@@ -9,13 +9,22 @@ namespace ProgrammingLearningApp
 {
     public class ProgramExecutor
     {
-        public void ExecuteProgram(Program _program, Character _character)
+        public string ExecuteProgram(Program _program, Character _character)
         {
-
+            string executedString = "";
             foreach (var action in _program.AllActions)
             {
                 action.Execute(_character);
-            } 
+            }
+
+            for (int i = 0; i < _program.AllStrings.Count; i++)
+            {
+                if (i == _program.AllStrings.Count - 1) executedString += _program.AllStrings[i] + ".";
+                else executedString = _program.AllStrings[i] + ",";
+;           }
+
+            executedString += $"End state ({_character.Position.x},{_character.Position.y}) facing{Enum.GetName(_character.Rotation)}";
+            return executedString;           
         }
     }
 }

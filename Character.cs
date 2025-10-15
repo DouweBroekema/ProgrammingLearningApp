@@ -10,6 +10,12 @@ namespace ProgrammingLearningApp
     {
         public Vector2Int Position;
         public Rotation Rotation;
+
+        public Character(Vector2Int _startPosition = default, Rotation _startRotation = Rotation.South)
+        {
+            Position = _startPosition;
+            Rotation = _startRotation;
+        }
     }
 
     public enum Rotation
@@ -26,5 +32,7 @@ namespace ProgrammingLearningApp
         {
             this.x = x; this.y = y; 
         }
+
+
     }
 }

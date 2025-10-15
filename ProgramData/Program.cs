@@ -9,6 +9,7 @@ namespace ProgrammingLearningApp.ProgramData
 {
     public class Program
     {
+        public List<string> AllStrings;
         public List<IAction> AllActions;
 
         public Program(List<IAction> _allActions)
